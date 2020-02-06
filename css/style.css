@@ -9,7 +9,6 @@
     padding-top: 56.25%;
     position: relative;
     //box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    border: 7px solid rgba(201, 201, 201, 0.6);
 }
      
 .video-container iframe {
@@ -25,6 +24,15 @@ h1, h2, h3, h4, h5, h6, h7, h8 {
     text-align: center;
 }
 
+#main h2 {
+    font-size: 5vw;
+    margin-bottom: 0;
+}
+
+#main h5 {
+    font-size: 3vw;
+}
+
 header {
     background-color: #3d3d3d;
     padding: 1.5rem 0 1.2rem 0;
@@ -32,8 +40,13 @@ header {
 }
 
 section {
-    padding-top: 5rem;
-    padding-bottom: 3rem;
+    padding-top: 2rem;
+    //padding-bottom: 1rem;
+}
+
+#main h5 {
+    padding-bottom: 0;
+    margin: 0;
 }
 
 #main strong {
@@ -41,15 +54,16 @@ section {
 }
 
 #main .container {
+    text-align: center;
     max-width: 720px;
 }
 
 #main .column {
-    padding-bottom: 2em;
+    padding-bottom: 1.6em;
 }
 
 #content {
-    background-color: #c3c3c3;
+    background: url(../images/RecycleNetwork_1300Lede1.jpg) no-repeat center center;
 }
 
 #content h2 {
@@ -68,32 +82,45 @@ footer p {
     font-size: 1.3rem;
 }
 
-@media (min-width: 80.0rem) {
-    #main {
-        text-align: left;
-    }
-}
-
 .button.cta {
-  background-color: #6cac3f;
-  border: 0.1rem solid #6cac3f;
-  font-size: 3.1rem;
-  height: 5.8rem;
-  line-height: 5.8rem;
-  padding: 0 3.0rem;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: #6cac3f;
+    border: 0.1rem solid #6cac3f;
+    font-size: 3.1rem;
+    height: 5.8rem;
+    line-height: 5.8rem;
+    padding: 0 3.0rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 100%;
 }
 
 .button.cta:focus, .button.cta:hover {
-  background-color: #7ab74d;
-  border-color: #7ab74d;
+    background-color: #7ab74d;
+    border-color: #7ab74d;
 }
 
 a {
-  color: #7ab74d;
-  text-decoration: none;
+    color: #7ab74d;
+    text-decoration: none;
 }
 
 a:focus, a:hover {
   color: rgb(138, 148, 157);
+}
+
+@media (min-width: 80.0rem) {
+    #main {
+        text-align: left;
+    }
+    
+    #main h2 {
+        font-size: 3.6rem;
+    }
+    #main h5 {
+        font-size: 1.8rem;
+    }
+    
+    section {
+        padding-top: 5rem;
+        padding-bottom: 3rem;
+    }
 }
