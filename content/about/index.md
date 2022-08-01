@@ -20,3 +20,7 @@ My main programming language is C99 and C-Style C++, but I also enjoy Rust (curr
 I have done more than 10 000 hours of meditation, two silent retreats, and also have formations in hypnosis and hypnotherapy.
 
 I have a second website about meditation and spirituality where I translate articles from English to Brazilian Portuguese. You can check here: [Centro Pineal](https://centropineal.com.br/).
+
+I also like to draw and paint. You can check my DeviantArt [here](https://www.deviantart.com/felipemxg).
+
+_(Picture of my dogs at the right)_
