@@ -1,7 +1,7 @@
 ---
 title: "Stripping Away C++ - Why I Don't Use References"
 date: 2022-08-03
-draft: false
+draft: true
 garden_tags: ["programming", "cpp"]
 summary: " "
 status: "seeding"
